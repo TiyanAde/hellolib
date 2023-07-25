@@ -1,0 +1,20 @@
+{
+    "name": "mycompany/my-library",
+    "description": "library",
+    "type": "library",
+    "license": "MTI",
+    "autoload": {
+        "psr-4": {
+            "Mycompany\\MyLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiyan Ade Harianto"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mycompany/my-library": "*"
+    }
+}
